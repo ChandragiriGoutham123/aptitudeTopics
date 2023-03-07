@@ -20,8 +20,12 @@ downstream_speed = values[1]
 upstream_speed = values[0]
 speed_of_stream = round(float((downstream_speed-upstream_speed)/2), 2)
 speed_of_boat = round(float((downstream_speed+upstream_speed)/2), 2)
-print("speed of stream (km/hr): "+str(speed_of_stream))
-print("speed of boat (km/hr): "+str(speed_of_boat))
+inputs = input("Select one to find '1.speed of stream' '2.speed of boat': ")
+if inputs == "1":
+    print("speed of stream (km/hr): "+str(speed_of_stream))
+elif inputs == "2":
+    print("speed of boat (km/hr): "+str(speed_of_boat))
+
 
 
 

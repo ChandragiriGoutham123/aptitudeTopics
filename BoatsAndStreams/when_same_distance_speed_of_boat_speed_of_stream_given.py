@@ -2,7 +2,7 @@ from fractions import Fraction
 
 speed_of_man = Fraction(input("Enter speed of man with current (Km/hr): "))
 speed_current = Fraction(input("enter speed of  current (km/hr) : "))
-distance_or_time = input("select one to find  '1.same distance' or '2.time' or '3.half distance' : ").lower()
+distance_or_time = input("select one to find  '2. distance(same distance given)' or '1.time' or '3.distance(one is half)' : ").lower()
 if distance_or_time == "1":
     distance = Fraction(input("enter distance km : "))
 
