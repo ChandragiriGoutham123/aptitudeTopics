@@ -26,7 +26,7 @@ for i in range(number_of_inputs):
             speed_of_boat = Fraction(speed_of_boat)
             speed_of_stream = Fraction(speed_of_stream)
             time = Fraction(time)
-            print("i.e Distance=(Speed of boat+speed of stream)*(Time)")
+            print("i.e Distance=(Speed of boat-speed of stream)*(Time)")
             total_distance = float(round((speed_of_boat-speed_of_stream)*(time), 2))
             if total_distance >= 0:
                 distances = distances + [total_distance]
